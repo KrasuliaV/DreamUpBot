@@ -1,0 +1,14 @@
+package com.home.bot;
+
+public enum State {
+    NONE,
+    START,
+    ENTER_NAME,
+    ENTER_PHONE,
+    PLAYING_QUIZ,
+    GIVE_MOTIVATION,
+    ADMIN_CHANGE_ROLE,
+    ADMIN_DELETE_USER,
+    ADMIN_CHECK_USER,
+    ADMIN_CHECK_USER_FROM_TO
+}
